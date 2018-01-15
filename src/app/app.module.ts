@@ -8,13 +8,17 @@ import { HeaderComponent } from './components/header/header.component';
 import { ShowcaseComponent } from './components/showcase/showcase.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { BoxesComponent } from './components/boxes/boxes.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './pages/about/about.component';
 
 
 const appRoutes: Routes = [
   {path: '', component: HeaderComponent},
   {path: '', component: ShowcaseComponent},
   {path: '', component: NewsletterComponent},
-  {path: '', component: BoxesComponent}
+  {path: '', component: BoxesComponent},
+  {path: '', component: FooterComponent},
+  {path: '', component: AboutComponent}
 ];
 
 @NgModule({
@@ -23,7 +27,9 @@ const appRoutes: Routes = [
     HeaderComponent,
     ShowcaseComponent,
     NewsletterComponent,
-    BoxesComponent
+    BoxesComponent,
+    FooterComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

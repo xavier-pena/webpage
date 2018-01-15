@@ -23,6 +23,15 @@ ul{
     
 }
 
+.button_1{
+    height:30px;
+    background:#4bd4ec;
+    border:none;
+    padding-left:20px;
+    padding-right:20px;
+    color:#ffffff;
+}
+
 /*header stuff*/
 header{
     background: #050505;
@@ -92,3 +101,57 @@ margin-bottom: botton 10px;
 }
 
 /*newsletter stuff*/
+
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background:#050505;
+}
+
+#newsletter h1 {
+    float: left;
+
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+
+}
+
+#newsletter input[type="email"]{
+
+    padding:4px;
+    height:25px;
+    width:250px;
+
+}
+
+/*boxes stuff*/
+
+#boxes{
+    margin-top: 20px;
+
+}
+#boxes .box{
+    float:left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+footer{
+    padding:20px;
+    margin-top:110px;
+    color:#ffffff;
+    background-color:#050505;
+    text-align: center;
+    height: 50px;
+
+}
